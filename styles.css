@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0ff;
+    color: #003366;
+}
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #0056b3;
+    color: #e6f0ff;
+}
+h1 {
+    margin: 10px 0 0 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.print {
+    background: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.print:hover {
+    transform: translateY(-10px);
+}
+.print img {
+    max-width: 200px; /* Set the maximum width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+.print-info {
+    margin-top: 10px;
+    text-align: center; /* Center align text */
+}
+
+
+.download-button {
+    display: inline-block;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.download-button:hover {
+    background-color: #002244;
+}
+@media (min-width: 768px) {
+    .print-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+}
+.services {
+    text-align: auto;
+    text-align-last: auto;
+}
+.services img {
+    max-width: 400px; /* Set the maximum width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    display: block;
+    margin: 150
+}

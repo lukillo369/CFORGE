@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CForge Software</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <nav>
+            <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Software.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section class="contact">
+            <h2>Download Here</h2>
+            
+    <h1>Download Example</h1>
+    
+    <!-- Download button -->
+    <a href="files/example-file.txt" download="example-file.txt" class="download-btn">Download File</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 3D Printing Startup</p>
+    </footer>
+</body>
+</html>
